@@ -13,6 +13,7 @@ body {
 .header {
   margin-top: 5rem;
   padding-left: 1rem;
+  letter-spacing: 0.05rem;
 }
 
 h1 {
@@ -73,13 +74,12 @@ a {
 }
 
 .footer {
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: auto;
-  margin-bottom: 0.5rem;
   padding: 0 1rem;
+  border: 1px solid black;
 
 }
 
