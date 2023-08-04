@@ -4,13 +4,14 @@
   justify-content: space-between;
   margin-top: auto;
   padding: 0 1rem;
-}
-
-.link__to__home {
-  position: sticky;
-  right: 0;
+  align-items: center;
 }
 
 .p-site-by {
   margin: 0 auto;
+}
+
+.third__text {
+  text-decoration: none;
+  color: black;
 }

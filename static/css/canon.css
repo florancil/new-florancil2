@@ -7,11 +7,121 @@ body {
 }
 
 p {
-  margin: 0;
+  margin: 0
+}
+
+.link {
+  text-decoration: none;
+  color: black
 }
 
 .header {
   border: 1px solid black;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
   margin-top: 1.5rem;
+}
+
+.header:hover {
+  color: #6981a0;
+}
+
+.footer {
+  border: 1px solid red;
+}
+
+.background__text {
+  position: fixed;
+  top: 50vh;
+  left: 45vw;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+
+/* images */
+
+.images {
+  border: 1px solid purple;
+  max-width: 100vw;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+img {
+  width:10rem;
+  margin-bottom: 5rem;
+}
+
+.one-img {
+  width: 7.5rem;
+  height:auto;
+}
+
+.two-img {
+  width:10rem;
+  height:auto;
+  margin-right: 2rem
+}
+
+.three-img {
+  width:10rem;
+  height:auto;
+}
+
+.four-img {
+  width:6.5rem;
+  height:auto;
+}
+
+.five-img {
+  width:13rem;
+  height:auto;
+}
+
+.six-img {
+  width:10rem;
+  height:auto;
+}
+
+.seven-img {
+  width:15rem;
+  height:auto;
+}
+
+.eight-img {
+  width:10rem;
+  height:auto;
+}
+
+.nine-img {
+  width:10rem;
+  height:auto;
+}
+
+.ten-img {
+  width:15rem;
+  height:auto;
+}
+
+.eleven-img {
+  width:12rem;
+  height:auto;
+}
+
+.twelve-img {
+  width:10rem;
+  height:auto;
+}
+
+.thirteen-img {
+  width:15rem;
+  height:auto;
 }
