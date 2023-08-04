@@ -42,11 +42,11 @@
 
   overflow: hidden; /* Hide overflowing text during animation */
   border-right: 2px solid transparent;
-  }
+}
 
-  .categories {
-    font-size: 1.2rem;
-  }
+.categories {
+  font-size: 1.2rem;
+}
 
 
 .lists {
