@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 0 1rem;
+}
+
+.link__to__home {
+  position: sticky;
+  right: 0;
+}
+
+.p-site-by {
+  margin: 0 auto;
+}

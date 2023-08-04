@@ -71,22 +71,3 @@ a {
   font-size: 2.5rem;
   color: #6981a0;
 }
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: auto;
-  padding: 0 1rem;
-  border: 1px solid black;
-
-}
-
-.link__to__home {
-  position: sticky;
-  right: 0;
-}
-
-.p-site-by {
-  margin: 0 auto;
-}
