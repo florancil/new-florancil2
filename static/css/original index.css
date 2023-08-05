@@ -1,0 +1,117 @@
+* {
+  font-family: 'General Sans', sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  line-height: 2rem;
+}
+
+.first,
+.third {
+  position: fixed;
+  bottom: 0;
+}
+
+.first {
+  margin-left: 1rem;
+}
+
+.third {
+  position: fixed;
+  right: 0;
+  margin-right: 1rem;
+}
+
+footer {
+  color: black;
+  opacity: 1;
+}
+
+
+.middle {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 5rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-size: 1.8rem;
+  max-width: 100%;
+}
+
+.header__text {
+  display: inline-block;
+  font-weight: bold;
+
+  overflow: hidden; /* Hide overflowing text during animation */
+  border-right: 2px solid transparent;
+}
+
+.categories {
+  font-size: 1.2rem;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+
+.hero__image {
+  width: 10rem;
+}
+
+a {
+  font-weight: 700;
+}
+
+a:hover {
+  color: #394970;
+}
+
+.arrow {
+  display: inline;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.rest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards; 
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* iPhone non-max  */
+
+@media (min-width: 393px) {
+
+}
+
+/* iPhone max */
+
+@media (min-width: 428px) {
+  
+}
