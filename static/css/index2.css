@@ -1,0 +1,186 @@
+* {
+  font-family: 'General Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh
+}
+
+.header {
+  border: 1px solid black;
+}
+
+.header__text {
+  margin: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.categories {
+  border: 1px solid blue;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+a {
+  color: black;
+}
+
+.arrow {
+  display: inline-block;
+}
+
+.image__container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+
+img {
+  width: 10rem;
+}
+
+footer {
+  border: 1px solid purple;
+  min-width: 100vw;
+  margin-top: auto;
+  padding-left: 1rem;
+}
+
+.footer__text {
+  margin: 0;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+/* xxs  */
+@media (min-width: 320px) {
+  .header {
+    max-width: 320px;
+  }
+
+  .header__text {
+    font-size: 1.5rem;
+  }
+  
+  .categories {
+    border: 1px solid blue;
+    font-size: 1rem;
+  }
+
+  img {
+    width: 12rem;
+  }
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .header {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {
+
+} */
+
+/* md */
+@media (min-width: 768px) {
+  .header {
+    max-width: 500px;
+  }
+
+  .header__text {
+    font-size: 2.2rem;
+  }
+  
+  .categories {
+    border: 1px solid blue;
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 13rem;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .header {
+    max-width: 500px;
+  }
+
+  .header__text {
+    font-size: 2.5rem;
+  }
+  
+  .categories {
+    border: 1px solid blue;
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 15rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .header {
+    max-width: 650px;
+  }
+
+  .header__text {
+    font-size: 2.5rem;
+  }
+  
+  .categories {
+    border: 1px solid blue;
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 15rem;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .header {
+    max-width: 1000px;
+  }
+
+  .header__text {
+    margin: 0;
+    font-weight: bold;
+    font-size: 4rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  
+  .categories {
+    border: 1px solid blue;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  
+  img {
+    width: 10rem;
+  }
+}

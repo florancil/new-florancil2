@@ -90,8 +90,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: fixed;
-  top: 15rem;
   opacity: 0;
   animation: fadeIn 1s ease-out forwards; 
   animation-delay: 1s;
@@ -106,3 +104,14 @@ a:hover {
   }
 }
 
+/* iPhone non-max  */
+
+@media (min-width: 393px) {
+
+}
+
+/* iPhone max */
+
+@media (min-width: 428px) {
+  
+}
