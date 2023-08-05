@@ -84,10 +84,6 @@ footer {
 
 /* xxs  */
 @media (min-width: 320px) {
-  body {
-    max-height: 90vh;
-  }
-
   .header {
     max-width: 320px;
   }
@@ -107,10 +103,6 @@ footer {
 
 /* xs */
 @media (min-width: 475px) {
-  body {
-    max-height: 90vh;
-  }
-
   .header {
     max-width: 475px;
   }
