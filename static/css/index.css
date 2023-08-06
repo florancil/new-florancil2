@@ -9,8 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-height: 100vh;
-  overflow: hidden;
+  max-height: 95vh;
 }
 
 /* .header {
@@ -56,7 +55,10 @@ footer {
   /* border: 1px solid purple; */
   min-width: 100vw;
   margin-top: auto;
-  padding-left: 1rem;
+  padding-left: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2rem;
 }
 
 .footer__text {
