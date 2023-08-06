@@ -1,0 +1,45 @@
+body {
+  font-family: 'General Sans', sans-serif;
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  border: 1px solid red;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.header .link-to-photography a {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.footer {
+  border: 1px solid red;
+  min-width: 100vw;
+  position: absolute;
+  bottom: 1rem; 
+  left: 1rem;
+}
+
+.footer .site-by a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer .site-by p {
+  margin: 0
+}
+
+
+
+
