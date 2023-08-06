@@ -53,12 +53,9 @@ img {
 
 footer {
   /* border: 1px solid purple; */
-  min-width: 100vw;
-  margin-top: auto;
-  padding-left: 3rem;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 2rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
 }
 
 .footer__text {
