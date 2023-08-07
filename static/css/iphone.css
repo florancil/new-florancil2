@@ -16,7 +16,6 @@ body {
 }
 
 .header {
-  border: 1px solid red;
   min-width: 100vw;
   padding: 1rem;
   box-sizing: border-box;
@@ -29,7 +28,6 @@ body {
 }
 
 .footer {
-  border: 1px solid red;
   min-width: 100vw;
   display: flex;
   justify-content: flex-start;
@@ -47,7 +45,6 @@ body {
 }
 
 .image-container {
-  border: 1px solid red;
   min-width: 100vw;
   box-sizing: border-box;
   padding-top: 2rem;
