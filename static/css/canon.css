@@ -12,6 +12,10 @@ body {
   white-space: nowrap;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 p {
   margin: 0
 }
@@ -21,7 +25,6 @@ a {
 }
 
 .link {
-  text-decoration: none;
   color: black
 }
 
@@ -37,16 +40,28 @@ a {
   color: #6981a0;
 }
 
-footer {
-  /* border: 1px solid red; */
+.footer {
+  min-width: 100vw;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer .site-by a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer .site-by p {
+  margin: 0;
 }
 
 .background__text {
   position: fixed;
   top: 50vh;
-  left: 42vw;
+  left: 45vw;
   z-index: -1;
   opacity: 0.7;
 }
