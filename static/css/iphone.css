@@ -128,7 +128,7 @@ body {
 /* 2xl */
 @media (min-width: 1536px) {
   .image-container {
-    min-width: 
+    min-width: 1536px
   }
   
   img {
