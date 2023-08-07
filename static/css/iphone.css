@@ -5,33 +5,33 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 100vh;
-  overflow-x: hidden;
+  min-height: 100vh;
+  width: 100vw;
 }
 
-header {
+.header {
   border: 1px solid red;
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
+  min-width: 100vw;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-size: 2.5rem;
 }
 
-.header .link-to-photography a {
-  font-size: 2.5rem;
+.header .link a {
   color: black;
 }
 
 .footer {
   border: 1px solid red;
   min-width: 100vw;
-  position: absolute;
-  bottom: 1rem; 
-  left: 1rem;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .footer .site-by a {
+  box-sizing: border-box;
   text-decoration: none;
   color: black;
 }
@@ -40,6 +40,56 @@ header {
   margin: 0
 }
 
+.image-container {
+  border: 1px solid red;
+  min-width: 100vw;
+  box-sizing: border-box;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+}
 
+/* xxs  */
+@media (min-width: 320px) {
 
+}
+
+/* xs */
+@media (min-width: 475px) {
+
+}
+
+/* sm */
+@media (min-width: 640px) {
+
+}
+
+/* md */
+@media (min-width: 768px) {
+
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  img {
+    width: 35rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  img {
+    width: 40rem;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  img {
+    width: 40rem;
+  }
+}
 
