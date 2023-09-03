@@ -10,18 +10,28 @@ body {
   width: 100vw;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 1rem
 }
 
 .main-body {
-
+  border: 2px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-body .header {
   font-size: 1.5rem;
   /* background-color: beige; */
   margin-bottom: 1.5rem;
+  border: 2px solid black;
+}
+
+.container .main-body .header .title {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .main-body .header .typing-container {
@@ -36,6 +46,7 @@ body {
   font-size: 20px;
   line-height: 50px;
   margin-top: 5rem;
+  border: 2px solid black;
 }
 
 .main-body .list .list-container {
@@ -63,6 +74,55 @@ body {
   color: #fff;
   border: none;
   border-radius: 10px
+}
+
+/* xxs  */
+@media (min-width: 320px) {
+  .main-body {
+    min-width: 320px;
+  }
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .main-body {
+    min-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .main-body {
+    min-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .main-body {
+    min-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .main-body {
+    min-width: 1024px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .main-body {
+    min-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .main-body {
+    min-width: 1536px;
+  }
 }
 
 
