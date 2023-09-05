@@ -13,6 +13,8 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  color: white;
+  background-color: black;
 }
 
 .main-body {
@@ -52,7 +54,7 @@ body {
 
 .main-body .list .list-container a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   transition: 0.35s;
 }
 
@@ -244,5 +246,5 @@ body {
 }
 
 .footer p a {
-  color: #000;
+  color: #fff;
 }
