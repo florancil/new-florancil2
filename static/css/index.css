@@ -14,10 +14,6 @@ body {
   height: 100vh;
 }
 
-/* .header {
-  border: 1px solid black;
-} */
-
 .header__text {
   font-weight: bold;
   font-size: 2rem;
