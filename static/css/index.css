@@ -22,7 +22,6 @@ body {
 }
 
 .categories {
-  /* border: 1px solid blue; */
   font-size: 1.5rem;
   font-weight: 700;
   padding-left: 2rem;
@@ -39,7 +38,6 @@ a {
 }
 
 .image__container {
-  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
 }
@@ -49,7 +47,6 @@ img {
 }
 
 footer {
-  /* border: 1px solid purple; */
   position: absolute;
   bottom: 0;
   left: 0;
