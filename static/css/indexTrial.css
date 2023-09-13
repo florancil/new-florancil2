@@ -79,6 +79,14 @@ body {
   width: 100%;
 }
 
+.footer span {
+  color: #000;
+}
+
+.footer a {
+  color: #000;
+}
+
 /* xxs  */
 @media (min-width: 320px) {
   .typing-container {
